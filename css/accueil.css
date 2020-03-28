@@ -1,0 +1,42 @@
+.button {
+    width: 283px;
+    height: 172px;
+    border: solid;
+    border-color: #0F056B;
+}
+
+.affiche1{
+    width: 312px;
+    height: 346px;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.navbar{
+    background-color: #665FA0;
+}
+
+.nav-item.active{
+    background-color: #241B78 ;
+
+}
+
+footer {
+    background-color: #665FA0;
+}
+
+.pp{
+    width: 135px;
+    height: 145px;
+}
+
