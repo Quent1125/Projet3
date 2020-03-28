@@ -40,3 +40,8 @@ footer {
     height: 145px;
 }
 
+.carousel , .image-carousel{
+    max-width: 100rem;
+    width: 100%;
+}
+
