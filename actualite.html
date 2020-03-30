@@ -8,8 +8,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
 </head>
 <body>
+
 
 <header class="container-fluid ">
     <h1 class="text-center d-none d-md-block display-2" style="color: #241B78">Festival "Films de Plein Air"</h1>
@@ -27,10 +30,10 @@
             <ul class="navbar-nav  mr-auto">
                 <li class="nav-item "><a class="nav-link text-white" href="accueil.html">Accueil</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="Information.html">L'association</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="actualite.html">Actualité</a></li>
+                <li class="nav-item active"><a class="nav-link text-white" href="actualite.html">Actualité</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="planning.html">Planning du Festival</a></li>
-                <li class="nav-item active"><a class="nav-link text-white" href="preinscription.html">Préinscription</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="preinscription.html">Préinscription</a></li>
+                <li class="nav-item "><a class="nav-link text-white" href="contact.html">Contact</a></li>
             </ul>
 
         </div>
@@ -39,49 +42,6 @@
 
 
 </header>
-
-<div class="container ">
-    <div class="text-center">
-        <h1>Préinscription festival</h1>
-        <p class="pt-5 pb-5">Pour facilité l'organisation du festival nous vous demandons de vous préinscrire.<br>
-            Merci d'indiquer à quelle dates envisager vous de venir. </p>
-    </div>
-
-
-    <hr color="#504993">
-
-    <div class="formpreinscription pt-5 pb-5">
-        <form class="form-row justify-content-around">
-            <div class="col-6 text-center">
-                <input class="form-control" type="text" id="nom" name="nom" required placeholder="Nom"><br>
-                <input  class="form-control" type="text" id="prenom" name="prenom" required placeholder="Prénom"><br>
-                <input class="form-control" type="text" id="mail" name="mail" required placeholder="Adresse mail">
-            </div>
-            <div class="col-6 text-center">
-                <p>Dates envisagé : </p>
-                <input class="form-check-input" type="checkbox" id="5aout" name="5aout">
-                <label class="form-check-label" for="5aout">5 août</label><br>
-                <input class="form-check-input" type="checkbox" id="6aout" name="6aout">
-                <label class="form-check-label" for="6aout">6 août</label><br>
-                <input class="form-check-input" type="checkbox" id="7aout" name="7aout">
-                <label class="form-check-label" for="7aout">7 août</label><br>
-                <input class="form-check-input" type="checkbox" id="8aout" name="8aout">
-                <label class="form-check-label" for="8aout">8 août</label><br>
-
-            </div>
-            <div class="col-10 pt-5 pl-2 text-center">
-                <input class="form-check-input" type="radio" id="consetement" name="consetement" value="ok">
-                <label class="form-check-label small" for="consetement">Je consens à ce que mes données soient traitées par "Films de Plein Air" conformément à la politique de confidentialité du site</label><br>
-
-                <div class="row justify-content-center   sectionBouton pt-5 pb-5">
-                    <button class="col-2 d-none d-md-block btn btn-outline-dark" >Préinscription</button>
-                    <button class="col-lg-2 col-md-12 d-sm-block d-md-none btn btn-outline-dark btn-block button" >Préinscription</button>
-                </div>
-            </div>
-
-        </form>
-    </div>
-</div>
 
 
 
@@ -95,7 +55,7 @@
     <div class="container-fluid text-center text-md-left">
         <div class="row">
 
-            <div class="col-3 offset-2 ">
+            <div class="col-md-3 offset-md-2 col-sm-2 offset-sm-1 ">
                 <h5 class="text-uppercase text-white">Les Films de Plein Air</h5>
                 <hr color="#241B78">
                 <ul class="list-unstyled">
@@ -108,15 +68,15 @@
                 </ul>
 
             </div>
-            <div class="col-4 offset-2 ">
+            <div class="col-md-4 offset-md-2 col-sm-2 offset-sm-1  ">
 
                 <h5 class="text-uppercase text-center text-white">Newsletter</h5>
                 <hr color="#241B78">
                 <form class="form-group ">
                     <input class="form-control col-7 "  type="text" id="name" name="name" placeholder="Nom"><br>
                     <input class="form-control col-7 "  type="text" id="mail" name="mail" placeholder="Adresse mail"><br>
-                    <input class="form-check-input" type="radio" id="consetement" name="consetement" value="ok">
-                    <label class="form-check-label text-white" for="consetement">Je consens à ce que mes données soient traitées par "Films de Plein Air" conformément à la politique de confidentialité du site</label>
+                    <input class="form-check-input col-2 " type="radio" id="consetement" name="consetement" value="ok">
+                    <label class="form-check-label text-white small offset-1" for="consetement">Je consens à ce que mes données soient traitées par "Films de Plein Air" conformément à la politique de confidentialité du site</label>
                     <div class="input-group-append justify-content-end">
                         <button class="btn btn-light " >S'inscrire</button>
                     </div>
@@ -127,13 +87,12 @@
 
 
 
-    <div class="footer-copyright text-center bg-dark "><span class="text-white">© 2020 Copyright:</span>
+    <div class="footer-copyright text-center bg-dark small "><span class="text-white">© 2020 Copyright:</span>
         <a href="#">Vide pour le moment</a> - <span class="text-white">Tout les icons viennent de </span> <a target="_blank" href="https://icones8.fr">Icons8</a>
     </div>
 
 
 </footer>
-
 
 
 </body>
