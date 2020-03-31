@@ -81,42 +81,46 @@
             </div>
     </div>
 
-    <div class=" row cardAct justify-content-center">
-        <div class="card w-50 h-100 ">
-            <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs">
-                    <li class="nav-item">
-                        <a id="actu" class="nav-link " data-toggle="collapse" href="#collapseAct" role="button" aria-expanded="false" aria-controls="collapseAct">Actualité</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="twitter" class="nav-link" data-toggle="collapse" href="#collapseTwi" role="button" aria-expanded="false" aria-controls="collapseTwi">Twitter</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="facebook" class="nav-link " data-toggle="collapse" href="#collapseFb" role="button" aria-expanded="false" aria-controls="collapseFb">Facebook</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="card-body ">
-                <div class="collapse " id="collapseAct">
-                    <div class="card card-body">
 
-                    </div>
+    <div id="accordion" class="w-75 mx-auto" >
+        <div class="card">
+            <div class="row card-header w-100 m-auto  " id="headingOne">
+                <h5 class="col mx-auto ">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Actualité
+                    </button>
+                </h5>
+                <h5 class="col mx-auto">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Twitter
+                    </button>
+                </h5>
+                <h5 class="col mx-auto">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Facebook
+                </button>
+            </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show mx-auto" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+
                 </div>
-                <div class="collapse " id="collapseTwi">
-                    <div class="card card-body">
-                        <a class="twitter-timeline" data-lang="fr" data-height="500" data-theme="light" href="https://twitter.com/MasterStingg?ref_src=twsrc%5Etfw">Tweets by MasterStingg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
+            </div>
+            <div id="collapseTwo" class="collapse w-50 mx-auto" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <a class="twitter-timeline" data-lang="fr" data-height="500" data-theme="light" href="https://twitter.com/MasterStingg?ref_src=twsrc%5Etfw">Tweets by MasterStingg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
-                <div class="collapse " id="collapseFb">
-                    <div class="card card-body ">
-                        <div class="justify-content-center">
-                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                        </div>
-                       </div>
+            </div>
+            <div id="collapseThree" class="collapse mx-auto" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
         </div>
     </div>
+
+
 
 
 
@@ -206,7 +210,7 @@
                 <ul class="list-unstyled">
                     <li><a class="text-white" href="accueil.html">Accueil</a></li>
                     <li><a class="text-white" href="Information.html">L'association</a></li>
-                    <li><a class="nav-link text-white" href="actualite.html">Actualité</a></li>
+                    <li><a class="text-white" href="actualite.html">Actualité</a></li>
                     <li><a class="text-white" href="planning.html">Planning du Festival</a></li>
                     <li><a class="text-white" href="preinscription.html">Préinscription</a></li>
                     <li><a class="text-white" href="contact.html">Contact</a></li>
@@ -239,7 +243,6 @@
 
 </footer>
 
-<script type="text/javascript" src="js/acceuil.js"></script>
 </body>
 </html>
 

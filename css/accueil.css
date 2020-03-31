@@ -35,10 +35,18 @@ footer {
     background-color: #665FA0;
 }
 
+.imgactu{
+    width: 177px;
+    height: 169px;
+}
+
 .pp{
     width: 135px;
     height: 145px;
 }
+
+
+
 
 .carousel , .image-carousel{
     max-width: 100rem;
