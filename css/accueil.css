@@ -36,8 +36,8 @@ footer {
 }
 
 .imgactu{
-    width: 177px;
-    height: 169px;
+    width: 300px;
+    height: 295px;
 }
 
 .pp{
@@ -53,3 +53,13 @@ footer {
     width: 100%;
 }
 
+.boxactu{
+    width: auto;
+    height: 1255px;
+    overflow: auto;
+}
+
+#nbPerso{
+
+    width: 65px;
+}
