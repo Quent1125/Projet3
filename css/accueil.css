@@ -49,7 +49,7 @@ footer {
 
 
 .carousel , .image-carousel{
-    max-width: 100rem;
+    max-width: 75rem;
     width: 100%;
 }
 
@@ -62,4 +62,9 @@ footer {
 #nbPerso{
 
     width: 65px;
+}
+
+.affiche{
+    width: 256px;
+    height: 360px;
 }
